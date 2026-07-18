@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLine - Your Story, Your Journey</title>
 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>LifeLine</h1>
+    <p>Your Story. Your Journey. Your Legacy.</p>
+
+    <button>Start Your Journey</button>
+</header>
+
+<section>
+
+    <h2>Why LifeLine?</h2>
+
+    <div>
+        <h3>📅 Memories</h3>
+        <p>Save your important life moments.</p>
+    </div>
+
+    <div>
+        <h3>🎯 Goals</h3>
+        <p>Track your future dreams.</p>
+    </div>
+
+    <div>
+        <h3>🏆 Achievements</h3>
+        <p>Store certificates and awards.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 LifeLine. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
