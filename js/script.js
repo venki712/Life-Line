@@ -26,3 +26,23 @@ function login(event) {
 
     window.location.href = "dashboard.html";
 }
+function signup(event) {
+    event.preventDefault();
+
+    const name = document.querySelector('input[type="text"]').value;
+    const email = document.querySelector('input[type="email"]').value;
+    const password = document.querySelectorAll('input[type="password"]')[0].value;
+    const confirmPassword = document.querySelectorAll('input[type="password"]')[1].value;
+
+    if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        return;
+    }
+
+    localStorage.setItem("name", name);
+    localStorage.setItem("email", email);
+
+    alert("Account Created Successfully!");
+
+    window.location.href = "login.html";
+}
