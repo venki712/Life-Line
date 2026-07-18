@@ -55,3 +55,30 @@ if (welcome) {
         welcome.innerHTML = `Welcome Back, ${name} 👋`;
     }
 }
+function saveMemory(event) {
+    event.preventDefault();
+
+    const title = document.querySelector('input[type="text"]').value;
+    const date = document.querySelector('input[type="date"]').value;
+    const location = document.querySelectorAll('input[type="text"]')[1].value;
+    const mood = document.querySelector("select").value;
+    const description = document.querySelector("textarea").value;
+
+    const memory = {
+        title,
+        date,
+        location,
+        mood,
+        description
+    };
+
+    let memories = JSON.parse(localStorage.getItem("memories")) || [];
+
+    memories.push(memory);
+
+    localStorage.setItem("memories", JSON.stringify(memories));
+
+    alert("Memory Saved Successfully!");
+
+    window.location.href = "timeline.html";
+}
