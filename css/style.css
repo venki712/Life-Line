@@ -156,3 +156,24 @@ footer{
     padding:25px;
     border-radius:15px;
 }
+/* Timeline Page */
+
+.timeline-page{
+    padding:50px;
+    text-align:center;
+}
+
+.timeline-item{
+    width:80%;
+    max-width:600px;
+    margin:20px auto;
+    background:#1E293B;
+    padding:20px;
+    border-radius:15px;
+    text-align:left;
+}
+
+.timeline-item h2{
+    color:#F59E0B;
+    margin-bottom:10px;
+}
