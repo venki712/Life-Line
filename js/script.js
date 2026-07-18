@@ -46,3 +46,12 @@ function signup(event) {
 
     window.location.href = "login.html";
 }
+const welcome = document.getElementById("welcome");
+
+if (welcome) {
+    const name = localStorage.getItem("name");
+
+    if (name) {
+        welcome.innerHTML = `Welcome Back, ${name} 👋`;
+    }
+}
