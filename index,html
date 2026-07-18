@@ -3,43 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LifeLine - Your Story, Your Journey</title>
-
+    <title>LifeLine</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header>
-    <h1>LifeLine</h1>
-    <p>Your Story. Your Journey. Your Legacy.</p>
+<nav>
+    <h2>LifeLine</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Timeline</a></li>
+        <li><a href="#">Goals</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</nav>
 
-    <button>Start Your Journey</button>
+<header class="hero">
+    <h1>Your Story.<br>Your Journey.<br>Your Legacy.</h1>
+    <p>Create your personal timeline, save memories, and achieve your future goals.</p>
+
+    <a href="signup.html">
+        <button>Start Your Journey</button>
+    </a>
 </header>
 
-<section>
+<section class="features">
 
-    <h2>Why LifeLine?</h2>
-
-    <div>
-        <h3>📅 Memories</h3>
-        <p>Save your important life moments.</p>
+    <div class="card">
+        <h2>📅 Memories</h2>
+        <p>Store your life's most valuable memories.</p>
     </div>
 
-    <div>
-        <h3>🎯 Goals</h3>
-        <p>Track your future dreams.</p>
+    <div class="card">
+        <h2>🎯 Goals</h2>
+        <p>Track your dreams and achievements.</p>
     </div>
 
-    <div>
-        <h3>🏆 Achievements</h3>
-        <p>Store certificates and awards.</p>
+    <div class="card">
+        <h2>🏆 Achievements</h2>
+        <p>Save certificates and milestones forever.</p>
     </div>
 
 </section>
 
+<section class="timeline">
+    <h2>Life Timeline Preview</h2>
+
+    <div class="event">🎂 2006 - Born</div>
+    <div class="event">🏫 2012 - First School</div>
+    <div class="event">🎓 2024 - College</div>
+    <div class="event">💼 2028 - Dream Job</div>
+</section>
+
 <footer>
-    <p>© 2026 LifeLine. All Rights Reserved.</p>
+    <p>© 2026 LifeLine | Your Story Never Ends ❤️</p>
 </footer>
 
 <script src="js/script.js"></script>
